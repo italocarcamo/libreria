@@ -1,0 +1,90 @@
+/* Estilos para el menú */
+#menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #00718F;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  #menu a:hover {
+    background-color: #0BA5BE;
+  }
+  
+  /* Estilos para el contenedor de libros */
+  #contenedorfull {
+    margin-top: 60px;
+  }
+  
+  .libro {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .libro img {
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+  }
+  
+  .libro h3 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  /* Estilos para el pop-up */
+  #popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #popup h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #popup p {
+    margin: 5px 0;
+  }
+  
+  #popup button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #popup button:hover {
+    background-color: #555;
+  }
+  

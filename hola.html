@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Biblioteca</title>
+  <link rel="stylesheet" href="estilos/holaestilos.css">
+</head>
+<body>
+  <div id="menu">
+    <ul>
+      <li><a href="#" id="favoritos">Mis favoritos</a></li>
+      <li><a href="#" id="mas-vistos">Mas vistos</a></li>
+      <li><a href="#" id="categorias">Libros por categorias</a></li>
+    </ul>
+  </div>
+
+  <div id="contenedorfull"></div>
+
+  <div id="popup" style="display:none;">
+    <h2>Detalle del libro</h2>
+    <p><strong>Autor:</strong> <span id="autor"></span></p>
+    <p><strong>Sinopsis:</strong> <span id="sinopsis"></span></p>
+    <p><strong>Link de descarga:</strong> <span id="descarga"></span></p>
+    <p><strong>Año de publicación:</strong> <span id="publicacion"></span></p>
+    <p><strong>Editorial:</strong> <span id="editorial"></span></p>
+    <button id="agregar-favorito">Agregar a favoritos</button>
+    <button id="eliminar-favorito" style="display:none;">Eliminar</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./script/script.js"></script>
+</body>
+</html>
